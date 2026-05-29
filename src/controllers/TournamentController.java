@@ -32,24 +32,24 @@ public class TournamentController {
 
   }
 
-  public Tournament binarySearchByTotalStarterPointsFilaA(Tournament[] tournaments, int totalStarterPoints){
+  //public Tournament binarySearchByTotalStarterPointsFilaA(Tournament[] tournaments, int totalStarterPoints){
     
-    int alto = tournaments.length - 1;
-    int bajo = 0;
+  //  int alto = tournaments.length - 1;
+  //  int bajo = 0;
 
-    while (bajo <= alto) {
+  //  while (bajo <= alto) {
       
-      int centro = (alto + bajo)/2;
+  //    int centro = (alto + bajo)/2;
 
-        if (tournaments[centro].getTotalStarterPoints() < 0){
-          return centro;
-        }
+  //      if (tournaments[centro].getTotalStarterPoints() < 0){
+  //       return centro;
+  //      }
 
 
-      }
+  //    }
 
-          return -1;
+  //        return -1;
 
-    }  
+  //  }  
 
 }
