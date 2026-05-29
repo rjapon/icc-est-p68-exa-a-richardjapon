@@ -1,3 +1,7 @@
+import controllers.TournamentController;
+import models.Athlete;
+import models.Club;
+import models.Tournament;
 
 public class AppTournament {
 
@@ -139,6 +143,10 @@ public class AppTournament {
                  * Aquí debe estar el código para ejecutar la aplicación, utilizando el
                  * TournamentController para mostrar los resultados de cada torneo.
                  */
+
+                TournamentController ord = new TournamentController();
+                ord.sortBubbleDesc(null);
+
 
         }
 }
